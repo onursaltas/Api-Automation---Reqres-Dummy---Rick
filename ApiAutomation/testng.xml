@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FoxRestAPISuite">
+<listeners>
+	<listener class-name="utilities.Listeners" />
+</listeners>
+	<test thread-count="5" name="RestAPITestAutomation">
+		<classes>
+			<class name="tests.ReqresApiTestPage" />
+			<class name="tests.DummRestApiTestPage" />
+			<class name="tests.RickAndMortyApiTestPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
